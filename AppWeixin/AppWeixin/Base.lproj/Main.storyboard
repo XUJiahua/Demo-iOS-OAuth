@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="alt-ZS-hjp">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AG-8p-NON">
+                                <rect key="frame" x="76" y="83" width="222.5" height="81.5"/>
+                                <string key="text">云收银
+
+其他APP可向云收银申请授权
+假设用户已经登录云收银</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8AG-8p-NON" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="air-J8-sem"/>
+                            <constraint firstItem="8AG-8p-NON" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="eyE-TP-9xy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Irb-RJ-cyq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="138.98050974512745"/>
+        </scene>
+        <!--Approval View Controller-->
+        <scene sceneID="z0O-A1-HMq">
+            <objects>
+                <viewController storyboardIdentifier="ApprovalViewController" id="zBj-D5-q0e" customClass="ApprovalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dph-jM-KK6"/>
+                        <viewControllerLayoutGuide type="bottom" id="td7-c5-bJt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JHO-4u-wrF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="64t-jm-OxC">
+                                <rect key="frame" x="158.5" y="318.5" width="58" height="30"/>
+                                <state key="normal" title="Approve"/>
+                                <connections>
+                                    <action selector="approveAuth:" destination="zBj-D5-q0e" eventType="touchUpInside" id="Kjf-NV-26C"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Need your approval to authorize" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbq-Ib-TRY">
+                                <rect key="frame" x="65" y="157" width="245" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="其他APP名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdn-K3-LuQ">
+                                <rect key="frame" x="136.5" y="81" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dbq-Ib-TRY" firstAttribute="top" secondItem="hdn-K3-LuQ" secondAttribute="bottom" constant="55" id="2uN-s3-y0F"/>
+                            <constraint firstItem="hdn-K3-LuQ" firstAttribute="top" secondItem="Dph-jM-KK6" secondAttribute="bottom" constant="61" id="ALC-kd-kMk"/>
+                            <constraint firstItem="64t-jm-OxC" firstAttribute="centerY" secondItem="JHO-4u-wrF" secondAttribute="centerY" id="Hya-O8-H7H"/>
+                            <constraint firstItem="Dbq-Ib-TRY" firstAttribute="centerX" secondItem="JHO-4u-wrF" secondAttribute="centerX" id="puO-1m-HWF"/>
+                            <constraint firstItem="64t-jm-OxC" firstAttribute="centerX" secondItem="JHO-4u-wrF" secondAttribute="centerX" id="vJo-vT-dOq"/>
+                            <constraint firstItem="hdn-K3-LuQ" firstAttribute="centerX" secondItem="JHO-4u-wrF" secondAttribute="centerX" id="vK4-ua-2Dy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblName" destination="hdn-K3-LuQ" id="nCZ-po-ZhF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xUr-Bz-BrW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1820" y="136.28185907046478"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Tcp-Ga-b8R">
+            <objects>
+                <navigationController storyboardIdentifier="MainNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="alt-ZS-hjp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iIh-LC-faK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="0Ey-Hh-KhI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C1O-Pa-Mqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

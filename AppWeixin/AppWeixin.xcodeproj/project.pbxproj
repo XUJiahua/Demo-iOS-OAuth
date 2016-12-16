@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CABD032C1E02A1EB00F7E3D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CABD032B1E02A1EB00F7E3D8 /* main.m */; };
+		CABD032F1E02A1EB00F7E3D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CABD032E1E02A1EB00F7E3D8 /* AppDelegate.m */; };
+		CABD03321E02A1EB00F7E3D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABD03311E02A1EB00F7E3D8 /* ViewController.m */; };
+		CABD03351E02A1EB00F7E3D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABD03331E02A1EB00F7E3D8 /* Main.storyboard */; };
+		CABD03371E02A1EB00F7E3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABD03361E02A1EB00F7E3D8 /* Assets.xcassets */; };
+		CABD033A1E02A1EB00F7E3D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABD03381E02A1EB00F7E3D8 /* LaunchScreen.storyboard */; };
+		CABD03451E02A1EB00F7E3D8 /* AppWeixinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CABD03441E02A1EB00F7E3D8 /* AppWeixinTests.m */; };
+		CABD03501E02A1EB00F7E3D8 /* AppWeixinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CABD034F1E02A1EB00F7E3D8 /* AppWeixinUITests.m */; };
+		CABD039E1E0387C600F7E3D8 /* ApprovalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABD039D1E0387C600F7E3D8 /* ApprovalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CABD03411E02A1EB00F7E3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABD031F1E02A1EB00F7E3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABD03261E02A1EB00F7E3D8;
+			remoteInfo = AppWeixin;
+		};
+		CABD034C1E02A1EB00F7E3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABD031F1E02A1EB00F7E3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABD03261E02A1EB00F7E3D8;
+			remoteInfo = AppWeixin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CABD03271E02A1EB00F7E3D8 /* AppWeixin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWeixin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABD032B1E02A1EB00F7E3D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CABD032D1E02A1EB00F7E3D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CABD032E1E02A1EB00F7E3D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CABD03301E02A1EB00F7E3D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CABD03311E02A1EB00F7E3D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CABD03341E02A1EB00F7E3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABD03361E02A1EB00F7E3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CABD03391E02A1EB00F7E3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CABD033B1E02A1EB00F7E3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABD03401E02A1EB00F7E3D8 /* AppWeixinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppWeixinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABD03441E02A1EB00F7E3D8 /* AppWeixinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppWeixinTests.m; sourceTree = "<group>"; };
+		CABD03461E02A1EB00F7E3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABD034B1E02A1EB00F7E3D8 /* AppWeixinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppWeixinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABD034F1E02A1EB00F7E3D8 /* AppWeixinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppWeixinUITests.m; sourceTree = "<group>"; };
+		CABD03511E02A1EB00F7E3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABD039C1E0387C600F7E3D8 /* ApprovalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApprovalViewController.h; sourceTree = "<group>"; };
+		CABD039D1E0387C600F7E3D8 /* ApprovalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApprovalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABD03241E02A1EB00F7E3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABD033D1E02A1EB00F7E3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABD03481E02A1EB00F7E3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CABD031E1E02A1EB00F7E3D8 = {
+			isa = PBXGroup;
+			children = (
+				CABD03291E02A1EB00F7E3D8 /* AppWeixin */,
+				CABD03431E02A1EB00F7E3D8 /* AppWeixinTests */,
+				CABD034E1E02A1EB00F7E3D8 /* AppWeixinUITests */,
+				CABD03281E02A1EB00F7E3D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CABD03281E02A1EB00F7E3D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABD03271E02A1EB00F7E3D8 /* AppWeixin.app */,
+				CABD03401E02A1EB00F7E3D8 /* AppWeixinTests.xctest */,
+				CABD034B1E02A1EB00F7E3D8 /* AppWeixinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABD03291E02A1EB00F7E3D8 /* AppWeixin */ = {
+			isa = PBXGroup;
+			children = (
+				CABD032D1E02A1EB00F7E3D8 /* AppDelegate.h */,
+				CABD032E1E02A1EB00F7E3D8 /* AppDelegate.m */,
+				CABD03301E02A1EB00F7E3D8 /* ViewController.h */,
+				CABD03311E02A1EB00F7E3D8 /* ViewController.m */,
+				CABD03331E02A1EB00F7E3D8 /* Main.storyboard */,
+				CABD03361E02A1EB00F7E3D8 /* Assets.xcassets */,
+				CABD03381E02A1EB00F7E3D8 /* LaunchScreen.storyboard */,
+				CABD033B1E02A1EB00F7E3D8 /* Info.plist */,
+				CABD032A1E02A1EB00F7E3D8 /* Supporting Files */,
+				CABD039C1E0387C600F7E3D8 /* ApprovalViewController.h */,
+				CABD039D1E0387C600F7E3D8 /* ApprovalViewController.m */,
+			);
+			path = AppWeixin;
+			sourceTree = "<group>";
+		};
+		CABD032A1E02A1EB00F7E3D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CABD032B1E02A1EB00F7E3D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CABD03431E02A1EB00F7E3D8 /* AppWeixinTests */ = {
+			isa = PBXGroup;
+			children = (
+				CABD03441E02A1EB00F7E3D8 /* AppWeixinTests.m */,
+				CABD03461E02A1EB00F7E3D8 /* Info.plist */,
+			);
+			path = AppWeixinTests;
+			sourceTree = "<group>";
+		};
+		CABD034E1E02A1EB00F7E3D8 /* AppWeixinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CABD034F1E02A1EB00F7E3D8 /* AppWeixinUITests.m */,
+				CABD03511E02A1EB00F7E3D8 /* Info.plist */,
+			);
+			path = AppWeixinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABD03261E02A1EB00F7E3D8 /* AppWeixin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABD03541E02A1EB00F7E3D8 /* Build configuration list for PBXNativeTarget "AppWeixin" */;
+			buildPhases = (
+				CABD03231E02A1EB00F7E3D8 /* Sources */,
+				CABD03241E02A1EB00F7E3D8 /* Frameworks */,
+				CABD03251E02A1EB00F7E3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppWeixin;
+			productName = AppWeixin;
+			productReference = CABD03271E02A1EB00F7E3D8 /* AppWeixin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CABD033F1E02A1EB00F7E3D8 /* AppWeixinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABD03571E02A1EB00F7E3D8 /* Build configuration list for PBXNativeTarget "AppWeixinTests" */;
+			buildPhases = (
+				CABD033C1E02A1EB00F7E3D8 /* Sources */,
+				CABD033D1E02A1EB00F7E3D8 /* Frameworks */,
+				CABD033E1E02A1EB00F7E3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABD03421E02A1EB00F7E3D8 /* PBXTargetDependency */,
+			);
+			name = AppWeixinTests;
+			productName = AppWeixinTests;
+			productReference = CABD03401E02A1EB00F7E3D8 /* AppWeixinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CABD034A1E02A1EB00F7E3D8 /* AppWeixinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABD035A1E02A1EB00F7E3D8 /* Build configuration list for PBXNativeTarget "AppWeixinUITests" */;
+			buildPhases = (
+				CABD03471E02A1EB00F7E3D8 /* Sources */,
+				CABD03481E02A1EB00F7E3D8 /* Frameworks */,
+				CABD03491E02A1EB00F7E3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABD034D1E02A1EB00F7E3D8 /* PBXTargetDependency */,
+			);
+			name = AppWeixinUITests;
+			productName = AppWeixinUITests;
+			productReference = CABD034B1E02A1EB00F7E3D8 /* AppWeixinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABD031F1E02A1EB00F7E3D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = johntech;
+				TargetAttributes = {
+					CABD03261E02A1EB00F7E3D8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2VKY6QPH98;
+						ProvisioningStyle = Automatic;
+					};
+					CABD033F1E02A1EB00F7E3D8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2VKY6QPH98;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CABD03261E02A1EB00F7E3D8;
+					};
+					CABD034A1E02A1EB00F7E3D8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2VKY6QPH98;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CABD03261E02A1EB00F7E3D8;
+					};
+				};
+			};
+			buildConfigurationList = CABD03221E02A1EB00F7E3D8 /* Build configuration list for PBXProject "AppWeixin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CABD031E1E02A1EB00F7E3D8;
+			productRefGroup = CABD03281E02A1EB00F7E3D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABD03261E02A1EB00F7E3D8 /* AppWeixin */,
+				CABD033F1E02A1EB00F7E3D8 /* AppWeixinTests */,
+				CABD034A1E02A1EB00F7E3D8 /* AppWeixinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABD03251E02A1EB00F7E3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABD033A1E02A1EB00F7E3D8 /* LaunchScreen.storyboard in Resources */,
+				CABD03371E02A1EB00F7E3D8 /* Assets.xcassets in Resources */,
+				CABD03351E02A1EB00F7E3D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABD033E1E02A1EB00F7E3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABD03491E02A1EB00F7E3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABD03231E02A1EB00F7E3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABD03321E02A1EB00F7E3D8 /* ViewController.m in Sources */,
+				CABD032F1E02A1EB00F7E3D8 /* AppDelegate.m in Sources */,
+				CABD032C1E02A1EB00F7E3D8 /* main.m in Sources */,
+				CABD039E1E0387C600F7E3D8 /* ApprovalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABD033C1E02A1EB00F7E3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABD03451E02A1EB00F7E3D8 /* AppWeixinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABD03471E02A1EB00F7E3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABD03501E02A1EB00F7E3D8 /* AppWeixinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CABD03421E02A1EB00F7E3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABD03261E02A1EB00F7E3D8 /* AppWeixin */;
+			targetProxy = CABD03411E02A1EB00F7E3D8 /* PBXContainerItemProxy */;
+		};
+		CABD034D1E02A1EB00F7E3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABD03261E02A1EB00F7E3D8 /* AppWeixin */;
+			targetProxy = CABD034C1E02A1EB00F7E3D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CABD03331E02A1EB00F7E3D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABD03341E02A1EB00F7E3D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CABD03381E02A1EB00F7E3D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABD03391E02A1EB00F7E3D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABD03521E02A1EB00F7E3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CABD03531E02A1EB00F7E3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABD03551E02A1EB00F7E3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2VKY6QPH98;
+				INFOPLIST_FILE = AppWeixin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johntech.AppWeixin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CABD03561E02A1EB00F7E3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2VKY6QPH98;
+				INFOPLIST_FILE = AppWeixin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johntech.AppWeixin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CABD03581E02A1EB00F7E3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2VKY6QPH98;
+				INFOPLIST_FILE = AppWeixinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johntech.AppWeixinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppWeixin.app/AppWeixin";
+			};
+			name = Debug;
+		};
+		CABD03591E02A1EB00F7E3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2VKY6QPH98;
+				INFOPLIST_FILE = AppWeixinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johntech.AppWeixinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppWeixin.app/AppWeixin";
+			};
+			name = Release;
+		};
+		CABD035B1E02A1EB00F7E3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2VKY6QPH98;
+				INFOPLIST_FILE = AppWeixinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johntech.AppWeixinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AppWeixin;
+			};
+			name = Debug;
+		};
+		CABD035C1E02A1EB00F7E3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2VKY6QPH98;
+				INFOPLIST_FILE = AppWeixinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johntech.AppWeixinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AppWeixin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABD03221E02A1EB00F7E3D8 /* Build configuration list for PBXProject "AppWeixin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABD03521E02A1EB00F7E3D8 /* Debug */,
+				CABD03531E02A1EB00F7E3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABD03541E02A1EB00F7E3D8 /* Build configuration list for PBXNativeTarget "AppWeixin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABD03551E02A1EB00F7E3D8 /* Debug */,
+				CABD03561E02A1EB00F7E3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CABD03571E02A1EB00F7E3D8 /* Build configuration list for PBXNativeTarget "AppWeixinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABD03581E02A1EB00F7E3D8 /* Debug */,
+				CABD03591E02A1EB00F7E3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CABD035A1E02A1EB00F7E3D8 /* Build configuration list for PBXNativeTarget "AppWeixinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABD035B1E02A1EB00F7E3D8 /* Debug */,
+				CABD035C1E02A1EB00F7E3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABD031F1E02A1EB00F7E3D8 /* Project object */;
+}
